@@ -1,18 +1,16 @@
-import Head from "next/head";
+import { Seo } from "@/ui/components/Seo";
 
 export default function Home() {
     return (
         <>
-            <Head>
-                <title>Codeurs</title>
-                <meta
-                    name="description"
-                    content="Bienvenue sur Codeurs, une plateforme pour les développeurs."
-                />
-            </Head>
-            <main>
-                <h1>Hello world!</h1>
-            </main>
+            <Seo
+                title="Home"
+                description="Home page"
+                image="https://via.placeholder.com/150"
+            />
+            <div className="flex flex-col items-center justify-center h-screen">
+                <h1 className="text-3xl font-bold">Hello world!</h1>
+            </div>
         </>
     );
 }
