@@ -6,7 +6,7 @@ export default function Home() {
         <>
             <Seo title="Codeur Pro" description="Home page" />
             <div className="flex flex-col items-center justify-center h-screen">
-                <Typography component="p" variant="h1">
+                <Typography component="h1" variant="display">
                     Coders Monkeys{" "}
                 </Typography>
             </div>
