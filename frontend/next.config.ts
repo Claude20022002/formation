@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  reactStrictMode: true,
+    reactStrictMode: true,
+    output: "export", // Nouvelle méthode pour générer un site statique
 };
 
 export default nextConfig;
